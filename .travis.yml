@@ -7,4 +7,4 @@ install:
 script:
   - pytest --cov=basicpack
 after_success:
-      — coveralls
+  - coveralls
